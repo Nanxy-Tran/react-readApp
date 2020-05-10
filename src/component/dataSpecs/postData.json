@@ -1,0 +1,26 @@
+
+{
+    "data": [
+    {
+        "title": "Self-taught va noi ran vat ca nhan",
+        "rankIcon": "/static/dataMedia/post_rank/1.png",
+        "time": " Hava no idea",
+        "summary": "Tu hoc va ky luat ban than...",
+        "content": "Lam sao de tap trung tron thoi dai co qua nhieu cam ba den tu mang xa hoi"
+        
+    }, 
+    {
+        "title": "Ve Website và Admin",
+        "rankIcon": "../dataMedia/post_rank/2.png",        
+        "subtitle": "Làm web để chia sẻ và cũng để xin việc !",
+        "summary": "Viec lam hau Covid-19...",
+        "content": "Mục đích bạn đầu của website này là một project cá nhân, tổng hợp kiến thức đã học trong hơn hai tháng về web development. Nhưng sau khi học và bắt tay vào làm, mình nghĩ sẽ tiếp tục phát triển trang web này thành một blog thật sự, xa hơn có thể trở thành một trang web cung cấp tài nguyên học online.  "
+    },
+    {
+        "title": "Xin viec o dau bay gio !?",
+        "rankIcon": "../dataMedia/post_rank/3.png",
+        "summary": "Thi truong lao dong thoi khung hoang....",
+        "subtitle": "Lam viec trai nganh nhung khong trai nghe", 
+        "content": "Nghe chon nguoi, nguoi kho chon nghe vi do la kinh nghiem va thuc tien chu mang tinh dinh lluong chu khong dinh tinh ?? "
+    }]    
+}

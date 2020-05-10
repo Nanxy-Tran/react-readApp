@@ -1,0 +1,46 @@
+{ 
+    "posts": [
+      { "id": 0,
+        "title": "Về website này",
+        "date": "9/5/2020",
+        "summary": "Website và tâm tư anh thanh niên ",
+        "content": [ "Càng lớn, mình càng không muốn nói nhiều về những chuyện đã qua, cũng không muốn văn vở ngàn năm của Hà Nội. Nhưng, website này cần có nội dung, không thể làm xong (làm đã tệ rồi) mà lại để mặc nó trống rỗng với khung sườn.", 
+          "Hmm, câu chuyện về website này cũng không có gì nhiều, khá đơn giản, một ít Javascript, một ít CSS, một ít ReactJS, một ít Material-Ui,.. à thêm chút Redux. Website app này là sản phẩm đầu tay sau gần 3 tháng học tập miệt mài, vượt qua sự cô đơn, bệnh tật, mặc cảm của người ngoại đạo (lâp trình) và hàng tá biến cố cuộc sống. Dĩ nhiên là web vẫn còn tồn tại rất nhiều lỗi, ví dụ như responsive chưa đẹp, chưa tối ưu, darkMode xấu, UI/UX chưa chuẩn, font chữ quê lên phố, màu sắc bánh bèo, ưỡn ẹo,....", 
+          "Nói thế nghe bi thảm quá, thật ra cũng chả có gì, cuộc sống bản thân mình hạnh phúc khi được làm những điều mình thích. Mình chỉ đơn giản là thích đọc, và có thể lấy sức lực của mình ra để làm điều gì đó có ích. Cảm giác thật phấn khởi khi lần đầu tiên mình đọc cuốn Head First Java, cách đây khoảng 4 tháng, khi mới bắt đầu tìm hiểu lập trình, lên mạng thấy mọi người khuyên nên học Java trước vì Java hướng đối tượng, viết một lần chạy khắp muôn nơi, ....",
+          "Nhưng thật lòng mà nói, lúc ấy chả hiểu được bao nhiêu, có quá nhiều thứ mù mờ. Kiến thức của cả nền công nghệ thông tin trải qua hàng chục năm phát triển với hàng chục ngàn ngôn ngữ, thiết kế, cấu trúc, tất cả tạo thành một bức tranh đan xen, mỗi đường chỉ là chặt chẽ. Một người học mới tập tành khó có thể mà hòa mình vào bức tranh đó một cách dễ dàng, cụ thể hơn là khó mà biết bắt đầu từ đâu.", 
+          " Sau khi gặp với Java, mình vẫn cố gắng đọc cho nốt Head First Java. Thật sự kết quả cũng không đến nỗi nào, mình đã có một chút hình dung về cách mà chương trình hoạt động, về những thứ cơ bản như điều kiện, vòng lặp,...hiểu thêm một chút về ngành lập trình, và cảm thấy yêu đời hơn một chút, ít ra vẫn có cái khi đọc dù khó vẵn làm mình thích.",
+          "Sau va chạm với Java, mình vẫn còn khá ấn tượng, nhưng đành phải gác lại, hy vọng một ngày nào đó sẽ trở lại để chiến đấu để vẽ ra những phần mềm Android với Android Studio. Rồi, mình thấy người ta lại quảng cáo về Javascript, lúc đầu cứ nghĩ nó là framework hay thư viện gì đó của Java - sai lầm tí chết. Một vòng google search và biết nó là một ngôn ngữ lập trình riêng biệt chả ăn nhập gì với Java cả. Mình bắt đầu tham khảo lời khuyên của một người bạn đang làm việc tại Microsoft và hiểu ra rằng có rất rất nhiều cách thức để viết một phần mềm, đừng tự trói buộc mình vào một công nghệ làm gì - nó luôn thay đổi. Đến đây, mình đã rẽ hướng sang học về phát triển web.", 
+          "Tiếp tục là câu truyện về những cuốn sách. Vẫn là Head First, có thể nói series sách này khá hay, cách tiếp cận vấn đề rất sáng tạo, không đòi hỏi người đọc phải biết quá nhiều về lập trình trước đó, một điều mà mình thấy nhiều cuốn sách cho Beginner khác không làm được. Mình đọc Head First HTML and CSS, rồi đến HF Javascript,... Kiến thức của cuốn Javascript cũng hơi cũ ( chưa có ES6, ES7,..) nên sau này khi lên mạng để đọc thêm thì lại ngớ người. Hết chương trình sách, mình chuyển qua các trang học online để cập nhật các kiến thức mới hiện tại. Trong số đó có thể nói đến trang tài liệu của Mozilla (MDN) - ở đây cung cấp một lượng lớn kiến thức rất căn bản về lập trình, về ngôn ngữ và về cách mà browser(client) và server hoạt động, mình vẫn đang đọc và tham khảo hàng ngày. Đến một thời điểm kiến thức cơ bản cũng tương đối đầy đủ một ít, mình lại tham khảo bạn và nhận được câu trả lời - ReactJS",
+          "ReactJS - mới đầu đọc chả hiểu đây là gì các bạn à. Nhưng biết sao được, những lúc đọc tài liệu vừa mệt, vừa cay nhưng trong cay có ham muốn chinh phục. Mình bắt đầu tìm đọc các cuốn sách viết về ReactJS - có thể nói, tài liệu viết về ReactJs chưa phong phú và chưa có nhiều cuốn thực sự xuất sắc, hay nói chính xác hơn là sách cho Beginner về Reactjs chả có cuốn nào đọc dễ hiểu cả. Và vì vậy, mình quay lại với <a> reactjs.org </a>, tự nhủ hãy chậm lại một tí, không được nôn nóng, và đọc như thiền vậy.",
+          "Web app được làm hoàn toàn bởi ReactJS và Material-UI, mình phải thú thật là mình làm trong thời gian nhanh nhất có thể để có thể xin việc. Để hiểu, không cách nào khác là thực hành. Nên trong thời gian ngắn ngủi, web site sẽ có nhiều chỗ chưa đẹp, chưa hợp lý, và phần ứng dụng đề xuất sách (ReadAPP) là một ý tưởng mình nghĩ không tồi, nhưng với khả năng và thời gian hiện tại - mình chưa làm nó tốt lên được, vẫn sẽ còn bug về cách thức gợi ý, về responsive,.... Nếu có được viêc, mình nghĩ tinh thần sẽ thoải mái hơn và chăm chút được thêm cho project này./."
+          
+        ]
+      }, 
+      {
+        "id": 1,
+        "title": " Triết học về thần lực ",
+        "date": "9/5/2020",
+        "summary": "Nỗi lo trong mỗi con người về điểm cân bằng cuộc sống.",
+        "content": ["Hôm qua mình đọc được một bài viết về việc lập trình viên làm gì sau 40 tuổi, rất hay. Trước đây, mình hay nghe về việc tuổi nghề của lập trình viên chỉ khoảng tới 35, mình khá bất ngờ, nhưng cũng không tin lắm. Nhìn vào những lập trình viên mang tầm ảnh hưởng lịch sử, điểm chung ở họ đó là tinh thần làm việc và niềm hạnh phúc khi chia sẻ.", 
+          " Mình bỏ công việc nhà nước để theo lập trình, có những lúc như này đây - không xin được việc, tâm lý luôn trong tình trạng lo lắng về thực lực bản thân. Nhưng cũng chính những lúc như thế này, mình hiểu rằng, mình phải tiếp tục bước tiếp, phải vật lộn với cuộc sống thôi, khi mà bụng đói, bản thân sẽ ít mơ mộng hơn.", "Bài học đầu tiên, rất khó khăn và đau đớn, nhưng thà học nó sớm còn hơn là gặp nó khi đã bên kia sườn dốc cuộc đời. Sự ổn định trong cuộc sống - không thể nào là một điều kiện của hạnh phúc. Triết học Marx đã chỉ rõ, cuộc sống vận động, phát triển không ngừng, luôn tiềm ẩn mâu thuẫn, và chắc chắn mâu thuẫn sẽ phát triển, không có sự ổn định nào ở đây cả. Mỗi khi chúng ta giải quyết được mâu thuẫn, cuộc sống sẽ trở về với quỹ đạo của nó, nhưng chúng ta đồng thời phải tiếp tục chuẩn bị tinh thần cho những mâu thuẫn sắp đến.",
+          "Một bộ phim mà mình rất thích là series Star War, triết lý của phim xoay quanh Thần lực - the Force !. Nhìn một cách khái quát, the Force chính là những mâu thuẫn trong cuộc đời, sẽ đến một lúc nào đó, thần lực thức tỉnh và bạn sẽ đương đầu, có thể chỉ là 1 lần, cũng có thể là 100 lần, 1000 lần, chỉ có bạn mới hiểu rõ nhất về niềm tin của chính mình. Bạn sẽ chiến đấu, với những Rye, với những Kylo Ren, với Darth Vader với những Jedi,... chính là gia đình, bạn bè, công việc,...Không có cách nào giải quyết triệt để, chỉ có cách để cân bằng thần lực mà thôi.", 
+          "Viết những dòng này ra, bản thân cũng đỡ lo hơn phần nào, vì cuối cùng, thần lực cũng được cân bằng mà. Và một lần nữa, nếu chưa xem Star War, hãy xem ngay đi mike fence !"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "8 tiếng một ngày",
+        "date": "9/5/2020",
+        "summary": " 2/3 cuộc đời hối hận về 1/3 còn lại.  ",
+        "content": ["Bỏ việc nhà nước - quyết định dù đúng hay sai thì cho dù cho đến cuối vẫn chẳng thể nào biết được. Với mình, nó đơn giản chỉ là bước ngoặt cuộc đời, không thể nói là nếu ngày xưa thế này thì bây giờ đã khác. Nope, chỉ có thực tại này là bản thân có thể quyết định, bạn muốn vui hay buồn cũng là khoảnh khắc hiện thực này.",
+          "Từ nhỏ đến lớn, mình luôn bị ám ảnh bởi việc thua kém người khác. Nó như bóng ma ám ảnh vậy, ngay cả trong giấc mơ cũng khó lòng tránh được. Đến hiện tại, mình vẫn chưa thể nào kiểm soát hoàn toàn bản thân mặc dù mình nắm lý thuyết khá chắc :). Nhưng thôi không sao, một cách khác để an ủi đầy dễ dàng hơn chính là lao động. Lao động khiến bạn tập trung và vơi đi cảm xúc tiêu cực của mình, lao động giúp chúng ta đạt được trạng thái tập trung cao độ phát huy được sức mạnh trí óc và thần lực. Quan trọng hơn cả, lao động khiến chúng ta nghĩ nhiều hơn về thực tại, tạm thời quên đi những âu lo.", 
+          "Nhưng sẽ thật sai, nếu như chúng ta làm những việc mà tiếng gọi trong mỗi chúng ta không cho phép. Chúng ta làm những việc đi theo tiếng gọi sâu thẳm trong tâm hồn, cuộc đời có thể làm nhiều việc khác nhau, nhưng tất cả đều hướng đến mục đích cuối cùng, có thể nhiều người gọi đó là lẽ sống (life purpose). Thôi không viết nữa, mới 23 tuổi đầu, biết khỉ gì =))" 
+
+        ]
+      }
+    ]
+}
+
+
+
+    

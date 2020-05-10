@@ -5,7 +5,7 @@ import health from '../../dataSpecs/health.json';
 import {useDispatch } from 'react-redux';
 import {updateHealth} from '../../actions/actions';
 import {makeStyles} from '@material-ui/core/styles';
-import healthCover from '../../dataMedia/healthBar.jpg';
+import healthCover from '../../dataMedia/healthCover.jpg';
 
 const generalBar =  makeStyles({ 
     root: {        

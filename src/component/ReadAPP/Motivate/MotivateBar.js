@@ -5,7 +5,7 @@ import MotivateSpec from './MotivateSpec';
 import {useDispatch} from 'react-redux';
 import {updateMotivate} from '../../actions/actions';
 import {makeStyles} from '@material-ui/core/styles';
-import motivateCover from '../../dataMedia/motivateCover.jpg';
+import motivateCover from '../../dataMedia/motivateCover1.jpg';
 
 const generalBar = makeStyles({
     root: {

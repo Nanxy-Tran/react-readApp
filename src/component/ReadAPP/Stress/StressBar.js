@@ -5,7 +5,7 @@ import StressSpec from './StressSpec';
 import { useDispatch } from 'react-redux';
 import { updateStress } from '../../actions/actions';
 import { makeStyles } from '@material-ui/core/styles';
-import stressCover from '../../dataMedia/stressbar.jpg';
+import stressCover from '../../dataMedia/stressCover.jpg';
 
 const generalBar = makeStyles({
     root: {

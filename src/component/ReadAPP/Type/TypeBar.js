@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { Typography, Fade, Paper, Slider } from '@material-ui/core';
 import TypeSpec from './TypeSpec';
 import type from '../../dataSpecs/type.json'
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { updateType } from '../../actions/actions';
 import {makeStyles} from '@material-ui/core/styles';
-import typeCover from '../../dataMedia/typeCover.jpg';
+import typeCover from '../../dataMedia/typeCover1.jpg';
 
 const generalBar = makeStyles({
     root: {

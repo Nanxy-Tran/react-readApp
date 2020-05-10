@@ -5,7 +5,7 @@ import Transed from './WeatherTranslate';
 export default function Weather(props) {
     const [weatherState, setWeather] = useState([]);
     useEffect(() => {
-        fetch('http://api.openweathermap.org/data/2.5/weather?id=1566083&appid=993b74dcf47ca6d2e41af6a14164546b')
+        fetch('https://api.openweathermap.org/data/2.5/weather?id=1566083&appid=993b74dcf47ca6d2e41af6a14164546b')
             .then(res => res.json())
             .then(result => {
                 setWeather(result.weather);

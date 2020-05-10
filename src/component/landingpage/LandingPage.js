@@ -157,8 +157,10 @@ export default function LandingPage(props) {
                         </Route>
                     </Switch>
                 </Grid>
-                <Grid container>
-                    Footer
+                <Grid container lg={12} style={{justifyContent: 'center'}}>
+                    <Typography align='center' variant="caption"> 
+                        Excuse me, no footer !
+                    </Typography>
                 </Grid>
             </div>
         </React.Fragment>

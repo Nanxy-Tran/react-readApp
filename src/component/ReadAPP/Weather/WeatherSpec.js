@@ -9,7 +9,7 @@ export default function WeatherSpec(props) {
                 <Fade in={true} timeout={800} >
                     <Typography 
                         align='center'
-                        color="secondary"
+                        color="textSecondary"
                         variant="body1"
                     >
                         {props.content}
@@ -20,7 +20,7 @@ export default function WeatherSpec(props) {
                 <Fade in={true} timeout={800} >
                     <Typography
                         align='center'
-                        color="secondary"
+                        color="textSecondary"
                         variant="body1"
                     >
                         {props.content}
@@ -31,7 +31,7 @@ export default function WeatherSpec(props) {
                 <Fade in={true} timeout={800} >
                     <Typography
                         align='center'
-                        color="secondary"
+                        color="textSecondary"
                         variant="body1"
                     >
                         {props.content}
@@ -42,7 +42,7 @@ export default function WeatherSpec(props) {
                 <Fade in={true} timeout={800} >
                     <Typography
                         align='center'
-                        color="secondary"
+                        color="textSecondary"
                         variant="body1"
                     >
                         {props.content}
@@ -53,7 +53,7 @@ export default function WeatherSpec(props) {
                 <Fade in={true} timeout={800} >
                     <Typography
                         align='center'
-                        color="secondary"
+                        color="textSecondary"
                         variant="body1"
                     >
                         {props.content}
@@ -64,7 +64,7 @@ export default function WeatherSpec(props) {
             <Fade in={true} timeout={800} >
                 <Typography
                     align='center'
-                    color="secondary"
+                    color="textSecondary"
                     variant="body1"
                 >
                     {props.content}

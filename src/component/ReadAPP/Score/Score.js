@@ -42,7 +42,9 @@ export default function Score(props) {
           <Typography display="block">
             So diem cua ban: {props.score}
           </Typography>
-          <Typography>
+          <Typography
+            style={{margin: '2rem'}}  
+          >
             {props.score < 11
               ? consultData["invalid"]
               : consultData[props.score]}

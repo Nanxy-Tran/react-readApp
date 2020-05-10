@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Typography, Fade } from '@material-ui/core';
 
 export default function StressSpecs(props) {
@@ -6,42 +6,42 @@ export default function StressSpecs(props) {
         <React.Fragment>
             {props.index === 0 ?
                 <Fade in={true} timeout={800} >
-                    <Typography>
+                    <Typography color='textSecondary'>
                         {props.content}
                     </Typography>
                 </Fade> : <div> </div>
             }
             {props.index === 1 ?
                 <Fade in={true} timeout={800} >
-                    <Typography>
+                    <Typography color='textSecondary'>
                         {props.content}
                     </Typography>
                 </Fade> : <div> </div>
             }
             {props.index === 2 ?
                 <Fade in={true} timeout={800} >
-                    <Typography>
+                    <Typography color='textSecondary'>
                         {props.content}
                     </Typography>
                 </Fade> : <div> </div>
             }
             {props.index === 3 ?
                 <Fade in={true} timeout={800} >
-                    <Typography>
+                    <Typography color='textSecondary'>
                         {props.content}
                     </Typography>
                 </Fade> : <div> </div>
             }
             {props.index === 4 ?
                 <Fade in={true} timeout={800} >
-                    <Typography>
+                    <Typography color='textSecondary'>
                         {props.content}
                     </Typography>
                 </Fade> : <div> </div>
             }
             {props.index === 5 ?
             <Fade in={true} timeout={800} >
-                <Typography>
+                <Typography color='textSecondary'>
                     {props.content}
                 </Typography> 
             </Fade> : <div></div>

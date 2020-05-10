@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Typography, Fade, Paper, Slider } from '@material-ui/core';
 import HealSpecs from './HealSpecs';
 import health from '../../dataSpecs/health.json';
-import {useDispatch, useSelector } from 'react-redux';
+import {useDispatch } from 'react-redux';
 import {updateHealth} from '../../actions/actions';
 import {makeStyles} from '@material-ui/core/styles';
-import healthCover from '../../dataMedia/healthbar.jpg';
+import healthCover from '../../dataMedia/healthBar.jpg';
 
 const generalBar =  makeStyles({ 
     root: {        
@@ -55,7 +55,6 @@ const generalBar =  makeStyles({
     ];
 export default function HealthBar(props) {
     const classes = generalBar();
-    let globalData = useSelector(state => state.health)
     const dispatch = useDispatch();
     const [state, setState] = useState(0);    
     const dataSpecs = health;    
@@ -64,6 +63,9 @@ export default function HealthBar(props) {
         setState(newValue);
         dispatch(updateHealth(newValue));
     }
+    useEffect(()=> {
+        dispatch(updateHealth(0));
+    },[]);
 
     return (
         <React.Fragment>
@@ -73,11 +75,11 @@ export default function HealthBar(props) {
             >
                 <Fade in={true} timeout={500}>
                     <Typography
-                        color='secondary'
+                        color='textPrimary'
                         variant='body1'
                         align='center'      
                         style={{paddingTop: '1rem'}}
-                    > Ban cam thay the nao ?  
+                    > Bạn cảm thấy khỏe không ?  
                     </Typography>
                 </Fade>
                 <div
@@ -97,7 +99,6 @@ export default function HealthBar(props) {
                     />
                 </Fade>    
                     <HealSpecs content={dataSpecs[state]} index={state}/>
-                    <Typography>{globalData}</Typography>
                 </div>
             </Paper>
         </React.Fragment>

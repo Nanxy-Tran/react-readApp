@@ -1,6 +1,7 @@
 import React from 'react';
 import { Fade, Grid, Hidden, Typography, Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 import PostSideBar from './PostSideBar';
 import panelBackground from '../dataMedia/postPanel.jpg';
 import PostList from './PostList';
@@ -14,8 +15,9 @@ const PostPageCSS = makeStyles({
     },
     header: {
         marginTop: "4rem",
-        marginBottom: "1rem",
+        marginBottom: "0.5rem",
         margin: 'auto',
+        marginLeft: '10vw',
     },
     footer: {
         marginBottom: "4rem",
@@ -28,7 +30,7 @@ const PostPageCSS = makeStyles({
 })
 
 export default function PostsPage() {
-
+    const match = useMediaQuery('(max-width: 600px');
     const classes = PostPageCSS();
     return (
         <React.Fragment>
@@ -44,19 +46,21 @@ export default function PostsPage() {
                             className={classes.header}
                         >
                             <Typography variant="h2"
-                                color="secondary"
+                                color="secondary"                                
                             >
                                 Đọc gì hôm nay !?
-                    </Typography>
+                            </Typography>
                         </Grid>
                     </Fade>
                     <Grid container
                         lg={5}
                         sm={10}
                         className={classes.footer}
+                        style={match ? {margin: '1rem'} : {marginLeft: '10vw'}}
                     >
-                        <Typography variant="body1"
-                            color="secondary"
+                        <Typography 
+                            variant="body1"
+                            color="secondary"                            
                         >
                             Điểm báo, thông tin thời sự, dịch bệch, tổ lái, quan điểm , đánh giá, chia sẻ cảm nhận, tình cảm, công việc, thần lực, và rất nhiều thứ khác để bắt tay ngay vào học !
                     </Typography>
@@ -70,7 +74,6 @@ export default function PostsPage() {
                             variant="contained"
                             color="primary"
                             style={{ marginTop: '1rem' }}
-
                         >
                             <Typography
                                 color='textSecondary'

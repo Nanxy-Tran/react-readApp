@@ -10,6 +10,8 @@ import cardCover3 from '../dataMedia/abstractColor3.jpg';
 const PostListTheme = makeStyles({
     listFrame: {
         paddingTop: '3vh',
+        marginLeft: '1rem',
+        marginRight: '1rem',
     },
     cardFrame: {
         width: '100%',
@@ -25,6 +27,7 @@ const PostListTheme = makeStyles({
         marginLeft: '3vw',
         padding: 0,
         marginTop: '3vh',
+        width: '70%',
     }, 
     cardButton: {
         marginRight: '1vw',

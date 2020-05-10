@@ -17,7 +17,7 @@ const AboutStyle = makeStyles({
     cover: {
         background: `url('${aboutMe}')`,
         backgroundPosition: 'right 0% top 30%',
-        backgroundImage: 'cover',
+        backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
     },
     panelHeader: {
@@ -68,7 +68,7 @@ export default function About() {
                     <Typography
                         variant="h3"
                         className={classes.panelHeader}
-                        color="inherit"
+                        color="textPrimary"
                     >
                         A B O U T
                     </Typography>
@@ -94,13 +94,14 @@ export default function About() {
                         <CardContent>
                             <Typography
                                 variant="h4"
+                                color='textPrimary'
                             >
                                 Hi, mình là Thịnh...
                         </Typography>
                             <Typography
                                 variant="caption"
                                 style={{textDecoration: 'underline', fontSize: '1.4rem'}}
-
+                                color='textPrimary'
                             >
                                 <i> Ultimate Loser  </i> - <q> Make peace not war plzz </q>
                             </Typography>
@@ -123,24 +124,24 @@ export default function About() {
                         >
                             Về mình và website
                         </Typography>
-                        <Typography align='justify' style={{marginTop: '1rem'}}> 
+                        <Typography align='justify' style={{marginTop: '1rem'}} color='textPrimary'>
                             Chuyện kể về một anh thanh niên đẹp trai tốt nghiệp đại học pô lít. Một ngày đẹp trời, anh bắt gặp một ông lão trông khả nghi đang luẩn quẩn quanh bốt trực của mình. Với giác quan nhạy bén, anh liền tiếp cận ông lão và hỏi xem ông đang giấu thứ gì. Ông lão thấy vậy, từ từ ngẩng đầu để lộ khuôn mặt hiền từ, không nói không rằng, ông rút từ trong túi ra cuốn sách mục nát dúi vào tay anh. Bất giác, anh liếc nhìn trang bìa, một tựa đề bằng mực đên đã phai mờ: 
                         </Typography>
-                        <Typography variant='body2' style={{marginTop: '1rem'}}>
+                        <Typography variant='body2' style={{marginTop: '1rem'}} color='textPrimary'>
                             <strong>
                                 <i> 
                                     300 bài code thiếu nhi (Lmt Edition)
                                 </i>
                             </strong>                            
                         </Typography>
-                        <Typography align='justify' style={{marginTop: '1rem'}}>
+                        <Typography align='justify' style={{marginTop: '1rem'}} color='textPrimary'>
                             Ngẩng đầu lên, ông lão kia đã biến mất khỏi tầm mắt của anh. Tặc lưỡi cho qua, anh nghĩ đó chỉ là một ngày kỳ dị chứ không phải một ngày làm thay đổi cuộc đời anh. Chuỗi ngày tiếp theo với anh thanh niên vẫn là những ca trực triền miên, nhưng giờ đây đã có thêm pho sách kỳ lạ làm bạn đồng hành. 
                             Những lúc rảnh rỗi, anh đều lấy nó ra đọc, vừa thưởng thức, vừa tìm hiểu về ngành nghề người ta đang đồn là hot lắm, là thiếu lắm. Sau bao ngày tháng dùi mài kinh sử, anh đã lĩnh hội được <strong> vài ba bài </strong> trong 300 bài code thiếu nhi ảo diệu kia và quyết tâm lên đường làm coder Front-end.
                         </Typography>
-                        <Typography align='justify' style={{marginTop: '1rem'}}> 
+                        <Typography align='justify' style={{marginTop: '1rem'}} color='textPrimary'> 
                             Cuộc hành trình phía trước còn dài, anh thanh niên phải tìm lại và báo đáp ông lão bí ẩn kia, hoàn thành nốt mấy trăm bài code còn dang dở và tìm lại chính mình trong cuộc sống. Nhà tuyển dụng hãy giúp anh thanh niên đi nào.
                         </Typography>                             
-                        <Typography> 
+                        <Typography color='textPrimary' align='justify'> 
                             Thân ái :3 
                         </Typography>
                     </Grid>
@@ -148,13 +149,14 @@ export default function About() {
                         container lg={10}
                         className={classes.contact}
                     >
-                        <Typography>
+                        <Typography color='textPrimary'>
                             Liên hệ:
-                    </Typography>
+                        </Typography>
                         <Grid style={{ display: 'flex' }}>
                             <MailIcon />
                             <Typography
                                 style={{ marginLeft: '0.5rem' }}
+                                color='textPrimary'
                             >
                                 - eeit104@gmail.com
                         </Typography>
@@ -167,6 +169,7 @@ export default function About() {
                             >
                                 <Typography
                                     style={{ marginLeft: '0.5rem' }}
+                                    color='textPrimary'
                                 >
                                     - Trần Thịnh
                                 </Typography>

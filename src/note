@@ -4,7 +4,8 @@
 4. Dark theme cho mot so header chua chinh xac, chuyen sang dark la khong thay con me gi nua luon 
 4.1 Tim cach chinh lai textSecondary va primary 
 
-6. Footer ???? => bỏ đell làm nữa !
+6. Footer ???? => bỏ đell làm nữa ! hợp lý, vì có cái mẹ gì đâu
+
 7. Link cac bai viet qua react router dom, chua co bai viet cuj the, dkm , so toi no cucj vler
 8. chinh sua lai drawer , chua chinh chinh xac link va mau sac !
 9. chinh sua lai cai nut start trong app read !  va thoi gian Timeout ngan hon, lau qua  ! 

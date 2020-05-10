@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Typography, Fade, Paper, Slider } from '@material-ui/core';
 import TypeSpec from './TypeSpec';
 import type from '../../dataSpecs/type.json'
@@ -64,6 +64,9 @@ export default function HealthBar(props) {
         setState(newValue);
         dispatch(updateType(newValue));
     }
+    useEffect(() => {
+        dispatch(updateType(0));
+    }, [])
 
     return (
         <React.Fragment>
@@ -73,7 +76,7 @@ export default function HealthBar(props) {
             >
                 <Fade in={true} timeout={500}>
                     <Typography
-                        color='secondary'
+                        color='textSecondary'
                         variant='body1'
                         align='center'
                         style={{ paddingTop: '1rem' }}

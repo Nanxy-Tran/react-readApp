@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Typography, Fade, Paper, Slider } from '@material-ui/core';
 import WeatherSpec from './WeatherSpec';
 import weather from '../../dataSpecs/weatherSpecs.json';
 import { useDispatch } from 'react-redux';
 import { updateWeather } from '../../actions/actions';
 import { makeStyles } from '@material-ui/core/styles';
-import weatherCover from '../../dataMedia/weatherbar.jpg';
+import weatherCover from '../../dataMedia/weatherBar.jpg';
 
 const generalBar = makeStyles({
     root: {
@@ -60,10 +60,13 @@ export default function WeatherBar(props) {
     const [state, setState] = useState(0);
     const dataSpecs = weather;
 
-    const handleChange = (e, newValue) => {
-        setState(newValue);
-        dispatch(updateWeather(newValue));
+    const handleChange = (e, Value) => {
+        setState(Value);
+        dispatch(updateWeather(Value));
     }
+    useEffect(() => {
+        dispatch(updateWeather(0));
+    }, [])
 
     return (
         <React.Fragment>
@@ -73,7 +76,7 @@ export default function WeatherBar(props) {
             >
                 <Fade in={true} timeout={500}>
                     <Typography
-                        color='secondary'
+                        color='textSecondary'
                         variant='body1'
                         align='center'
                         style={{ paddingTop: '1rem' }}

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Typography, Fade, Paper, Slider } from '@material-ui/core';
 import motivate from '../../dataSpecs/motivate.json'
 import MotivateSpec from './MotivateSpec';
@@ -64,7 +64,10 @@ export default function HealthBar(props) {
         setState(newValue);
         dispatch(updateMotivate(newValue));
     }
-
+    
+    useEffect(() => {
+        dispatch(updateMotivate(0));
+    }, [])
     return (
         <React.Fragment>
             <Paper

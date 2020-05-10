@@ -5,7 +5,7 @@ import weather from '../../dataSpecs/weatherSpecs.json';
 import { useDispatch } from 'react-redux';
 import { updateWeather } from '../../actions/actions';
 import { makeStyles } from '@material-ui/core/styles';
-import weatherCover from '../../dataMedia/weatherBar.jpg';
+import weatherCover from '../../dataMedia/weatherCover.jpg';
 
 const generalBar = makeStyles({
     root: {

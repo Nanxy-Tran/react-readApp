@@ -1,7 +1,7 @@
 {
   "name": "simple",
   "engines": {
-    "node": "12.16.x",
+    "node": "12.17.x",
     "npm": "6.x"
   },
   "version": "0.1.0",
@@ -30,7 +30,7 @@
     "xml-js": "^1.6.11"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

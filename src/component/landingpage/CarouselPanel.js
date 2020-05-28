@@ -41,8 +41,8 @@ export default function CarouselPanel() {
     const items = [
         {
             id: 1,
-            head: "Blog của ...!",
-            content: "Tôi - Thịnh deLesor ",
+            head: "Blog của Thịnh !",
+            content: "Learning to code...",
             img: welcome,
             href: "/",
         },

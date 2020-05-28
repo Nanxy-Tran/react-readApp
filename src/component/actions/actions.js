@@ -1,11 +1,11 @@
-{/* actions type*/}
+//actions type
 export const UPDATE_HEALTH = 'UPDATE_HEALTH';
 export const UPDATE_STRESS = 'UPDATE_STRESS';
 export const UPDATE_TYPE = 'UPDATE_TYPE';
 export const UPDATE_MOTIVATE = 'UPDATE_MOTIVATE';
 export const UPDATE_TIME = 'UPDATE_TIME';
 export const UPDATE_WEATHER = 'UPDATE_WEATHER';
-{/*action creator */} 
+//action creator
 export function updateHealth (value) {
     return {
         type: UPDATE_HEALTH,

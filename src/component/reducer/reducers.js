@@ -7,7 +7,9 @@ import {
     UPDATE_WEATHER
 } from '../actions/actions';
 //reducer
-export default function updater(state = {health: 0}, action) {
+const initialState = {};
+
+export default function updater(state = initialState, action) {
     switch (action.type) {
         case UPDATE_HEALTH: 
             return Object.assign({}, state,{health: action.payload})

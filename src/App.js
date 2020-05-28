@@ -46,8 +46,8 @@ function App() {
     },
     background: '#fafafa',  
   });  
-  let lightThemeResMod = responsiveFontSizes(lightTheme);
-  let darkThemeResMod = responsiveFontSizes(darkTheme);
+  const lightThemeResMod = responsiveFontSizes(lightTheme);
+  const darkThemeResMod = responsiveFontSizes(darkTheme);
 
  //    
   return (

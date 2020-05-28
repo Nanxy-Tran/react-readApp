@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Grid, Typography, CardMedia, CardHeader, CardContent, Card, Button } from '@material-ui/core';
+import React from 'react';
+import { Grid, Typography, CardMedia, CardContent, Card, Button } from '@material-ui/core';
 import dataWeb from '../dataSpecs/aboutWeb.json';
 import { Link as RouterLink, Switch, Route, useRouteMatch } from "react-router-dom";
 import Post from './Post';
@@ -45,7 +45,7 @@ export default function PostList() {
                 <Switch>
                     <Route exact path={match.url}>
                         <Typography variant='h4' className={classes.listFrame}>
-                            Tổng hợp bài viết
+                            Bài viết
                         </Typography>
                         {data.posts.map(item => (
                             <Grid container className={classes.listFrame}>
@@ -73,7 +73,8 @@ export default function PostList() {
                                             className={classes.cardButton}
                                         >
                                         <Typography color='textSecondary' > 
-                                            Đọc sau
+                                            Lưu 
+                                        {/*  change save button with a little heart icon for visual */} 
                                         </Typography>
                                     </Button>
                                     </CardContent>

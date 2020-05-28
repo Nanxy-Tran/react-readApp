@@ -103,7 +103,7 @@ export default function About() {
                                 style={{textDecoration: 'underline', fontSize: '1.4rem'}}
                                 color='textPrimary'
                             >
-                                <i> Ultimate Loser  </i> - <q> Make peace not war plzz </q>
+                                <i> In love with ReactJS </i>
                             </Typography>
                         </CardContent>
                     </Grid>
@@ -125,31 +125,55 @@ export default function About() {
                             Về mình và website
                         </Typography>
                         <Typography align='justify' style={{marginTop: '1rem'}} color='textPrimary'>
-                            Chuyện kể về một anh thanh niên đẹp trai tốt nghiệp đại học pô lít. Một ngày đẹp trời, anh bắt gặp một ông lão trông khả nghi đang luẩn quẩn quanh bốt trực của mình. Với giác quan nhạy bén, anh liền tiếp cận ông lão và hỏi xem ông đang giấu thứ gì. Ông lão thấy vậy, từ từ ngẩng đầu để lộ khuôn mặt hiền từ, không nói không rằng, ông rút từ trong túi ra cuốn sách mục nát dúi vào tay anh. Bất giác, anh liếc nhìn trang bìa, một tựa đề bằng mực đên đã phai mờ: 
+                            Website là project đầu tiên của bản thân nên không tránh phần sai sót. Về cách viết code và pattern còn chưa chuẩn xác, UX/UI chưa tối ưu và còn nhiều nhược điểm khác. Bản thân mình đang theo học lại Đại học ngành công nghê thông tin (online) nên rất mong muốn tìm được việc làm fulltime để tinh thần thoải mái, có thể tập trung hơn vào việc học, đồng thời có thêm kinh nghiệm. 
                         </Typography>
-                        <Typography variant='body2' style={{marginTop: '1rem'}} color='textPrimary'>
-                            <strong>
-                                <i> 
-                                    300 bài code thiếu nhi (Lmt Edition)
-                                </i>
-                            </strong>                            
+                        <Typography variant='h5' style={{marginTop: '1rem'}} color='textPrimary'>                        
+                             Kỹ năng                         
                         </Typography>
-                        <Typography align='justify' style={{marginTop: '1rem'}} color='textPrimary'>
-                            Ngẩng đầu lên, ông lão kia đã biến mất khỏi tầm mắt của anh. Tặc lưỡi cho qua, anh nghĩ đó chỉ là một ngày kỳ dị chứ không phải một ngày làm thay đổi cuộc đời anh. Chuỗi ngày tiếp theo với anh thanh niên vẫn là những ca trực triền miên, nhưng giờ đây đã có thêm pho sách kỳ lạ làm bạn đồng hành. 
-                            Những lúc rảnh rỗi, anh đều lấy nó ra đọc, vừa thưởng thức, vừa tìm hiểu về ngành nghề người ta đang đồn là hot lắm, là thiếu lắm. Sau bao ngày tháng dùi mài kinh sử, anh đã lĩnh hội được <strong> vài ba bài </strong> trong 300 bài code thiếu nhi ảo diệu kia và quyết tâm lên đường làm coder Front-end.
+                        <Typography variant="body2" style={{marginTop: '1rem'}} color='textPrimary'> 
+                            <ol>
+                                <li>
+                                    HTML, CSS, Javascript(ES6). Có kiến thức cơ bản về HTML, CSS cũng như Web API, hiểu tương đối về những đặc điểm của Javascript như Asynchronous (Async, await), Coercion, Closure,..
+                                </li>
+                                <li>
+                                    ReactJS, Redux: có kiến thức để làm việc với ReactJS và các plugin khác của React. Hiểu về các khái niệm của Reactjs như State, Props, Lifecycle, Hook,...
+                                </li>
+                                <li>
+                                    Material-UI, Bootstrap 4, Styled Component: có khả năng làm việc tốt với Material-UI. 
+                                </li>
+                                <li> 
+                                    Nodejs và Expressjs, RESTful API, và MongoDB cơ bản để thực hiện MERN stack. 
+                                </li>
+                            </ol>
                         </Typography>
-                        <Typography align='justify' style={{marginTop: '1rem'}} color='textPrimary'> 
-                            Cuộc hành trình phía trước còn dài, anh thanh niên phải tìm lại và báo đáp ông lão bí ẩn kia, hoàn thành nốt mấy trăm bài code còn dang dở và tìm lại chính mình trong cuộc sống. Nhà tuyển dụng hãy giúp anh thanh niên đi nào.
+                        <Typography variant='h5' style={{marginTop: '1rem'}} color='textPrimary'>                        
+                            Tính cách                         
+                        </Typography>
+                        <Typography variant="body2" style={{marginTop: '1rem'}} color='textPrimary'> 
+                            Bản thân là người vui vẻ, hòa đồng nhưng ít nói. Với công viêc, luôn cố gắng để tạo ra sự tập trung cao độ, hoàn thành công việc được giao. 
+                        </Typography>
+                        <Typography variant='h5' style={{marginTop: '1rem'}} color='textPrimary'> 
+                           Sở thích 
                         </Typography>                             
-                        <Typography color='textPrimary' align='justify'> 
-                            Thân ái :3 
+                        <Typography color='textPrimary' align='justify' style={{marginTop: '1rem'}}> 
+                            <ul>
+                                <li>
+                                    Chơi thủy sinh và nuôi tép
+                                </li>
+                                <li>
+                                    Đọc sách
+                                </li>
+                                <li>
+                                    Chạy bộ
+                                </li>
+                            </ul>
                         </Typography>
                     </Grid>
                     <Grid
                         container lg={10}
                         className={classes.contact}
                     >
-                        <Typography color='textPrimary'>
+                        <Typography color='textPrimary' style={{marginTop: '1rem'}}>
                             Liên hệ:
                         </Typography>
                         <Grid style={{ display: 'flex' }}>
@@ -163,7 +187,7 @@ export default function About() {
                         </Grid>
                         <Grid style={{ display: 'flex' }}>
                             <FacebookIcon />
-                            <a href="https://www.facebook.com/ahxtpn?ref=bookmarks"
+                            <a href="https://www.facebook.com/ahxtpn"
                                target="_blank" 
                                rel='noopener noreferrer'                               
                             >

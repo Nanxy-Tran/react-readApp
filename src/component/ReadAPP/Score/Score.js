@@ -40,7 +40,7 @@ export default function Score(props) {
       <Grid container className={classes.frame}>
         <Paper elevation={5} className={classes.paper}>
           <Typography display="block">
-            So diem cua ban: {props.score}
+            Số điểm của bạn : {props.score}
           </Typography>
           <Typography
             style={{margin: '2rem'}}  
@@ -61,12 +61,13 @@ export default function Score(props) {
             </Button>
           ) : (
             <Button
+              disabled={showBook}
               color="primary"
               variant="contained"
               onClick={handleShow}
               className={classes.button}
             >
-              Nên đọc hôm nay !
+              Click để chọn sách !
             </Button>
           )}
           {showBook ? (

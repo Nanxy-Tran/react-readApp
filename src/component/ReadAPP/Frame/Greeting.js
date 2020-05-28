@@ -9,7 +9,7 @@ export default function Greetings(props) {
     const [weatherState, setWeather] = useState([]);
     const [showButton, setShowButton] = useState(false);
     const handleShowButton = () => {
-        setTimeout(() => setShowButton(prev => !prev), 2000);
+        setTimeout(() => setShowButton(prev => !prev), 1000);
     };
     const handleStart = () => {
         props.changeGreeting();
@@ -78,7 +78,7 @@ export default function Greetings(props) {
                         color="secondary"
                         style={{ marginTop: "2vh", marginLeft: '5vw' }}
                     >
-                        Giới thiệu nè !
+                        Giới thiệu !
                         </Typography>
                     <Paper
                         className={classes.rootGreeting}

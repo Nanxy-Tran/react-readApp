@@ -8,7 +8,7 @@ import {
     Grid,
     Collapse,
     Button,
-    LinearProgress,   
+    LinearProgress
 } from "@material-ui/core";
 import {Rating} from '@material-ui/lab';
 import { makeStyles } from '@material-ui/core/styles';
@@ -19,7 +19,10 @@ const bookCardStyles = makeStyles({
         justifyContent: 'center',
         alignContent: 'center',
     },
-    card: {},
+    progress: {
+        width: '80vw',
+        height: '2vh',
+    },
 
 })
 
@@ -53,10 +56,8 @@ export default function SpecificBookCard(props) {
         <React.Fragment>
             <Grid container>
                 <Card className={classes.frame}>
-                    {book.length === 0 ?
-                        <div>
-                            <LinearProgress color='primary' variant="query" />
-                        </div>
+                    {book.length === 0 ?                    
+                        <LinearProgress color='primary' className={classes.progress} />
                         : <div></div>}
                     <div style={{ height: '100%' }}>
                         {book.map((item) => (
@@ -98,7 +99,7 @@ export default function SpecificBookCard(props) {
                                     <Button onClick={handleReadmore} variant='outlined' color='primary'>
                                         Tóm tắt
                                     </Button>
-                                    <Button href={`${item.GoodreadsResponse.book.link}`}
+                                    <Button href = {item.GoodreadsResponse.book.link._cdata || item.GoodreadsResponse.book.link._text }
                                             target="_blank" 
                                             variant="outlined"
                                             color="primary"
@@ -112,7 +113,7 @@ export default function SpecificBookCard(props) {
                     </div>
                 </Card>
                 {book.length !== 0 ?
-                    <Typography variant='caption' align='center'>
+                    <Typography variant='caption' align='center' style={{margin: 'auto'}}>
                         Cảm ơn, chúc bạn đọc vui :3
                     </Typography>
                     : <div></div>}

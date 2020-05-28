@@ -5,7 +5,7 @@ export default function GreetingFlow(props) {
     const [state, setState] = useState(0);
     useEffect(() => {
         if (state < 2) {
-            setTimeout(() => setState(1), 3000)        
+            setTimeout(() => setState(1), 1500)        
         }
     },[state, props]);
     return (

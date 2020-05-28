@@ -48,7 +48,8 @@ const AboutStyle = makeStyles({
     contact: {
         display: 'flex',
         flexDirection: 'column',
-        margin: 'auto'
+        margin: 'auto',
+        marginLeft: '1rem'
 
     }
 
@@ -122,7 +123,7 @@ export default function About() {
                             variant='h3'
                             color='textPrimary'
                         >
-                            Về mình và website
+                            Về bản thân và website
                         </Typography>
                         <Typography align='justify' style={{marginTop: '1rem'}} color='textPrimary'>
                             Website là project đầu tiên của bản thân nên không tránh phần sai sót. Về cách viết code và pattern còn chưa chuẩn xác, UX/UI chưa tối ưu và còn nhiều nhược điểm khác. Bản thân mình đang theo học lại Đại học ngành công nghê thông tin (online) nên rất mong muốn tìm được việc làm fulltime để tinh thần thoải mái, có thể tập trung hơn vào việc học, đồng thời có thêm kinh nghiệm. 
@@ -130,7 +131,7 @@ export default function About() {
                         <Typography variant='h5' style={{marginTop: '1rem'}} color='textPrimary'>                        
                              Kỹ năng                         
                         </Typography>
-                        <Typography variant="body2" style={{marginTop: '1rem'}} color='textPrimary'> 
+                        <Typography variant="body1" style={{marginTop: '1rem'}} color='textPrimary'> 
                             <ol>
                                 <li>
                                     HTML, CSS, Javascript(ES6). Có kiến thức cơ bản về HTML, CSS cũng như Web API, hiểu tương đối về những đặc điểm của Javascript như Asynchronous (Async, await), Coercion, Closure,..
@@ -152,11 +153,17 @@ export default function About() {
                         <Typography variant="body2" style={{marginTop: '1rem'}} color='textPrimary'> 
                             Bản thân là người vui vẻ, hòa đồng nhưng ít nói. Với công viêc, luôn cố gắng để tạo ra sự tập trung cao độ, hoàn thành công việc được giao. 
                         </Typography>
-                        <Typography variant='h5' style={{marginTop: '1rem'}} color='textPrimary'> 
+                        <Typography variant='h5' style={{marginTop: '1rem'}} color='textPrimary'>                        
+                            ReadAPP <i> (link ở trên thanh điều hướng)  </i>                      
+                        </Typography>
+                        <Typography variant="body2" style={{marginTop: '1rem'}} color='textPrimary'> 
+                            Đây là cái ứng dụng nhỏ theo ý tưởng của bản thân về việc lựa chọn một cuốn sách dựa vào điểm số sau khi trả lời các câu hỏi. Sử dụng Redux để lưu trữ, thay đổi điểm số và lấy dữ liệu từ Goodreads. Các cuốn sách được khuyến khích đọc đều ngẫu nhiên ngay cả khi điểm số có trùng nhau. Trong tương lai sẽ mở rộng dữ liệu sách cũng như update thêm nhiều tính năng mới tích hợp Backend đăng nhập:3 
+                        </Typography>
+                        <Typography variant='h5' style={{marginTop: '1rem', width: '100%'}} color='textPrimary' > 
                            Sở thích 
                         </Typography>                             
-                        <Typography color='textPrimary' align='justify' style={{marginTop: '1rem'}}> 
-                            <ul>
+                        <Typography color='textPrimary' variant='body1'> 
+                            <ol>
                                 <li>
                                     Chơi thủy sinh và nuôi tép
                                 </li>
@@ -166,15 +173,15 @@ export default function About() {
                                 <li>
                                     Chạy bộ
                                 </li>
-                            </ul>
+                            </ol>
                         </Typography>
                     </Grid>
                     <Grid
-                        container lg={10}
+                        container lg={12} sm={12}
                         className={classes.contact}
                     >
                         <Typography color='textPrimary' style={{marginTop: '1rem'}}>
-                            Liên hệ:
+                            <strong> Thông tin liên hệ: </strong>
                         </Typography>
                         <Grid style={{ display: 'flex' }}>
                             <MailIcon />

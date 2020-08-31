@@ -129,7 +129,7 @@ export default function About() {
                             Website là project đầu tiên của bản thân nên không tránh phần sai sót. Về cách viết code và pattern còn chưa chuẩn xác, UX/UI chưa tối ưu và còn nhiều nhược điểm khác. Bản thân mình đang theo học lại Đại học ngành công nghê thông tin (online) nên rất mong muốn tìm được việc làm fulltime để tinh thần thoải mái, có thể tập trung hơn vào việc học, đồng thời có thêm kinh nghiệm. 
                         </Typography>
                         <Typography variant='h5' style={{marginTop: '1rem'}} color='textPrimary'>                        
-                             Kỹ năng                         
+                             Skills                        
                         </Typography>
                         <Typography variant="body1" style={{marginTop: '1rem'}} color='textPrimary'> 
                             <ol>

@@ -97,14 +97,14 @@ export default function About() {
                                 variant="h4"
                                 color='textPrimary'
                             >
-                                Hi, mình là Thịnh...
+                                Hello, mình là Thịnh...
                         </Typography>
                             <Typography
                                 variant="caption"
                                 style={{textDecoration: 'underline', fontSize: '1.4rem'}}
                                 color='textPrimary'
                             >
-                                <i> In love with ReactJS </i>
+                                <i> In love with ReactJS & React Native </i>
                             </Typography>
                         </CardContent>
                     </Grid>
@@ -126,7 +126,7 @@ export default function About() {
                             Về bản thân và website
                         </Typography>
                         <Typography align='justify' style={{marginTop: '1rem'}} color='textPrimary'>
-                            Website là project đầu tiên của bản thân nên không tránh phần sai sót. Về cách viết code và pattern còn chưa chuẩn xác, UX/UI chưa tối ưu và còn nhiều nhược điểm khác. Bản thân mình đang theo học lại Đại học ngành công nghê thông tin (online) nên rất mong muốn tìm được việc làm fulltime để tinh thần thoải mái, có thể tập trung hơn vào việc học, đồng thời có thêm kinh nghiệm. 
+                            Website là project đầu tiên của bản thân nên không tránh phần sai sót. Về cách viết code và pattern còn chưa chuẩn xác, UX/UI chưa tối ưu và còn nhiều nhược điểm khác. Bản thân đang theo học lại Đại học ngành công nghê thông tin (online) nên rất mong muốn tìm được việc làm fulltime để tinh thần thoải mái, có thể tập trung hơn vào việc học, đồng thời có thêm kinh nghiệm. 
                         </Typography>
                         <Typography variant='h5' style={{marginTop: '1rem'}} color='textPrimary'>                        
                              Skills                        
@@ -134,16 +134,19 @@ export default function About() {
                         <Typography variant="body1" style={{marginTop: '1rem'}} color='textPrimary'> 
                             <ol>
                                 <li>
-                                    HTML, CSS, Javascript(ES6). Có kiến thức cơ bản về HTML, CSS cũng như Web API, hiểu tương đối về những đặc điểm của Javascript như Asynchronous (Async, await), Coercion, Closure,..
+                                    HTML, CSS, Javascript(ES6). Có kiến thức cơ bản về HTML, CSS cũng như Web API, hiểu tương đối về những đặc điểm của Javascript như Asynchronous, Coercion, Closure, Scope,....
                                 </li>
                                 <li>
-                                    ReactJS, Redux: có kiến thức để làm việc với ReactJS và các plugin khác của React. Hiểu về các khái niệm của Reactjs như State, Props, Lifecycle, Hook,...
+                                    ReactJS, React Native, Redux: có kiến thức để làm việc với API và một số thư viện khác để xây dựng ứng dụng mobile.  Hiểu về các khái niệm của Reactjs như State, Props, Lifecycle, Hook,... có kiến thức cơ bản về tối ưu hoá ứng dụng.
                                 </li>
                                 <li>
-                                    Material-UI, Bootstrap 4, Styled Component: có khả năng làm việc tốt với Material-UI. 
+                                    Material-UI, Bootstrap 4, Styled Component: có khả năng làm việc tốt với Material-UI,...Có kinh nghiệm thực tế xây dựng ứng dụng mobile với React Native.
+                                </li>
+                                <li>
+                                    Kinh nghiệm làm việc thực tế về clean code và mô hình agile Kanban trong dự án.
                                 </li>
                                 <li> 
-                                    Nodejs và Expressjs, RESTful API, và MongoDB cơ bản để thực hiện MERN stack. 
+                                    Kiến thức cơ bản về Nodejs (Expressjs) , RESTful API, và MongoDB.
                                 </li>
                             </ol>
                         </Typography>
@@ -151,13 +154,13 @@ export default function About() {
                             Tính cách                         
                         </Typography>
                         <Typography variant="body2" style={{marginTop: '1rem'}} color='textPrimary'> 
-                            Bản thân là người vui vẻ, hòa đồng nhưng ít nói. Với công viêc, luôn cố gắng để tạo ra sự tập trung cao độ, hoàn thành công việc được giao. 
+                            Bản thân là người vui vẻ, hòa đồng đôi khi ít nói. Với công viêc, luôn cố gắng để tạo ra sự tập trung cao độ. Sẵn sàng lắng nghe ý kiến và học hỏi từ đồng nghiệp.
                         </Typography>
                         <Typography variant='h5' style={{marginTop: '1rem'}} color='textPrimary'>                        
-                            ReadAPP <i> (link ở trên thanh điều hướng)  </i>                      
+                            ReadAPP                      
                         </Typography>
                         <Typography variant="body2" style={{marginTop: '1rem'}} color='textPrimary'> 
-                            Đây là cái ứng dụng nhỏ theo ý tưởng của bản thân về việc lựa chọn một cuốn sách dựa vào điểm số sau khi trả lời các câu hỏi. Sử dụng Redux để lưu trữ, thay đổi điểm số và lấy dữ liệu từ Goodreads. Các cuốn sách được khuyến khích đọc đều ngẫu nhiên ngay cả khi điểm số có trùng nhau. Trong tương lai sẽ mở rộng dữ liệu sách cũng như update thêm nhiều tính năng mới tích hợp Backend đăng nhập:3 
+                            Đây là ứng dụng nhỏ theo ý tưởng của bản thân về việc lựa chọn một cuốn sách dựa vào điểm số sau khi trả lời các câu hỏi. Sử dụng Redux để lưu trữ, thay đổi điểm số và lấy dữ liệu từ Goodreads. Các cuốn sách được khuyến khích đọc đều ngẫu nhiên ngay cả khi điểm số có trùng nhau. Trong tương lai sẽ mở rộng dữ liệu sách cũng như update thêm nhiều tính năng mới tích hợp Backend đăng nhập người dùng.
                         </Typography>
                         <Typography variant='h5' style={{marginTop: '1rem', width: '100%'}} color='textPrimary' > 
                            Sở thích 
@@ -165,10 +168,10 @@ export default function About() {
                         <Typography color='textPrimary' variant='body1'> 
                             <ol>
                                 <li>
-                                    Chơi thủy sinh và nuôi tép
+                                    Chụp ảnh và nghe nhạc Rock
                                 </li>
                                 <li>
-                                    Đọc sách
+                                    Đọc sách và documentation, học thử ngôn ngữ lập trình mới.
                                 </li>
                                 <li>
                                     Chạy bộ

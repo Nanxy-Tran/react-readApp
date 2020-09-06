@@ -5,7 +5,7 @@ import { Typography, Grid, Paper } from '@material-ui/core';
 export default function Post(props) {
     return (
         <React.Fragment>
-            <Grid container lg={12} style={{paddingTop: '3vh'}}>
+            <Grid container lg={10} style={{paddingTop: '3vh'}}>
                 <Paper style={{padding: '1rem', borderRadius: '1rem'}}
                        elevation={10}  
                 >

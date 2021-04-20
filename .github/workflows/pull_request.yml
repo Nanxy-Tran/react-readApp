@@ -10,5 +10,4 @@ jobs:
         uses: Nanxy-Tran/random-reviewer@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          reviewers:
-            - Nanxy-Tran
+          reviewers: ['Nanxy-Tran']

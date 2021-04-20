@@ -4,7 +4,6 @@ jobs:
   assignAuthor:
     name: Assign author & label to PR
     runs-on: ubuntu-latest
-
     steps:
       - name: Assign author to PR
         if: github.event.action == 'opened'

@@ -1,0 +1,16 @@
+on: pull_request
+name: Chores
+jobs:
+  assignAuthor:
+    name: Assign author & label to PR
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Assign author to PR
+        if: github.event.action == 'opened'
+        uses: Nanxy-Tran/random-reviewer@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          reviewers:
+            - Nanxy-Tran
+

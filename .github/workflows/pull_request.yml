@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Assign author to PR
         if: github.event.action == 'opened'
-        uses: Nanxy-Tran/random-reviewer@v1
+        uses: Nanxy-Tran/random-reviewer@v1.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           reviewers: '["Nanxy-Tran"]'
